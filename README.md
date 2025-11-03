@@ -93,9 +93,6 @@ reddit-toxicity-detection/
 │   │   ├── toxicity_distribution.png
 │   │   └── correlation_heatmap.png
 │   └── metrics/                # Performance metrics
-│
-└── scripts/
-    └── clean_notebook.py       # Fix notebook rendering issues
 ```
 
 ---
