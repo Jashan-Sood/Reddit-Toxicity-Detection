@@ -111,7 +111,7 @@ reddit-toxicity-detection/
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/yourusername/reddit-toxicity-detection.git
+git clone https://github.com/Jashan-Sood/reddit-toxicity-detection.git
 cd reddit-toxicity-detection
 ```
 
