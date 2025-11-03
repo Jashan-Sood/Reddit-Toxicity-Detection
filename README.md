@@ -254,8 +254,6 @@ Toxicity Classification → Score Aggregation → Analysis
 
 ## 📦 Dependencies
 
-Create a `requirements.txt` file with:
-
 ```txt
 pandas>=1.3.0
 numpy>=1.21.0
@@ -282,25 +280,19 @@ pip install -r requirements.txt
 
 ### Common Issues
 
-**1. Notebook won't render on GitHub**
-```bash
-# Run the cleaning script
-python scripts/clean_notebook.py
-```
-
-**2. Out of Memory Error**
+**1. Out of Memory Error**
 - Reduce sample size in the notebook
 - Use Google Colab with GPU runtime
 - Process data in batches
 
-**3. Model Download Issues**
+**2. Model Download Issues**
 ```python
 # Set cache directory
 import os
 os.environ['TRANSFORMERS_CACHE'] = './models/cache/'
 ```
 
-**4. Missing Dependencies**
+**3. Missing Dependencies**
 ```bash
 # Install specific versions
 pip install transformers==4.20.0
@@ -337,9 +329,9 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 ## 👨‍💻 Author
 
 **Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your Profile](https://linkedin.com/in/yourprofile)
-- Email: your.email@example.com
+- GitHub: [@Jashan-Sood](https://github.com/Jashan-Sood)
+- LinkedIn: [Your Profile](https://linkedin.com/in/jashan-sood)
+- Email: jashansood1711@gmail.com
 
 ---
 
@@ -373,9 +365,9 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 ## 📧 Contact & Support
 
 Have questions or suggestions? Feel free to:
-- Open an [Issue](https://github.com/yourusername/reddit-toxicity-detection/issues)
-- Start a [Discussion](https://github.com/yourusername/reddit-toxicity-detection/discussions)
-- Email: your.email@example.com
+- Open an [Issue](https://github.com/Jashan-Sood/reddit-toxicity-detection/issues)
+- Start a [Discussion](https://github.com/Jashan-Sood/reddit-toxicity-detection/discussions)
+- Email: jashansood1711@gmail.com
 
 ---
 
